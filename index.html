@@ -7,7 +7,7 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #0f172a;
+      background: #0f172a;
       color: white;
       margin: 0;
       padding: 0;
@@ -15,46 +15,41 @@
 
     header {
       text-align: center;
-      padding: 30px;
-      background-color: #1e293b;
+      padding: 25px;
+      background: #1e293b;
     }
 
     h1 {
       margin: 0;
-      font-size: 28px;
+      font-size: 26px;
     }
 
     .container {
       display: flex;
       flex-direction: column;
       align-items: center;
+      gap: 35px;
       padding: 20px;
-      gap: 40px;
     }
 
     .card {
-      background-color: #1e293b;
+      width: 85%;
+      max-width: 700px;
+      background: #1e293b;
       padding: 20px;
       border-radius: 12px;
-      width: 80%;
-      max-width: 700px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
     }
 
     video {
       width: 100%;
       border-radius: 10px;
-      margin-top: 10px;
       background: black;
-    }
-
-    h2 {
-      margin-bottom: 5px;
+      margin-top: 10px;
     }
 
     p {
-      font-size: 14px;
       color: #cbd5e1;
+      font-size: 14px;
     }
   </style>
 </head>
@@ -68,36 +63,27 @@
 
 <div class="container">
 
-  <!-- Avatar 1 -->
   <div class="card">
-    <h2>🎮 Avatar 1: Game Developer Vision</h2>
-    <p>AI-generated future game developer concept using generative AI tools.</p>
-
+    <h2>🎮 Avatar 1: Game Developer</h2>
+    <p>AI-generated game developer concept.</p>
     <video controls>
-      <source src="avatar1.mp4" type="mp4">
-      Your browser does not support the video tag.
+      <source src="./avatar1.mp4" type="video/mp4">
     </video>
   </div>
 
-  <!-- Avatar 2 -->
   <div class="card">
-    <h2>🧑‍💻 Avatar 2: AI Clone of Myself</h2>
-    <p>This is a digital clone of my face and voice created using AI tools.</p>
-
+    <h2>🧑‍💻 Avatar 2: AI Clone</h2>
+    <p>Digital clone of my face and voice.</p>
     <video controls>
-      <source src="avatar2.mp4" type="mp4">
-      Your browser does not support the video tag.
+      <source src="./avatar2.mp4" type="video/mp4">
     </video>
   </div>
 
-  <!-- Avatar 3 -->
   <div class="card">
-    <h2>🚀 Avatar 3: Future AI Mentor (2050)</h2>
-    <p>A futuristic AI mentor from the year 2050 explaining technology evolution.</p>
-
+    <h2>🚀 Avatar 3: Future AI Mentor</h2>
+    <p>AI from the year 2050 explaining technology evolution.</p>
     <video controls>
-      <source src="avatar3.mp4" type="mp4">
-      Your browser does not support the video tag.
+      <source src="./avatar3.mp4" type="video/mp4">
     </video>
   </div>
 
